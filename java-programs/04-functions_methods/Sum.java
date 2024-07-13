@@ -3,7 +3,7 @@ package com.gunjana.DsaJava.Functions_methods;
 import java.util.Scanner;
 
 /** SYNTAX :
-     *          access modifier return_type name (){
+     *          access modifier return_type name (arguments){
      *              //Body
      *              return statement
      *          }
@@ -14,8 +14,7 @@ public class Sum {
     public static void main(String[] args) {
         sum();
     }
-
-    static void sum(){              // static : does not require an object during the function call
+    static void sum(){      // static : does not require an object during the function call
         Scanner in = new Scanner(System.in);
         System.out.println("Enter number 1");
         int n1 = in.nextInt();

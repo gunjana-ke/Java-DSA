@@ -14,6 +14,7 @@ public class Return_Sum {
     }
     static int sum (int a, int b){
         int sum = a + b;
-        return sum;
+        return sum;         // Return indicates that this function block has ended
+    //  System.out.println("This line will never execute");
     }
 }
